@@ -1,0 +1,11 @@
+.nav{
+    display: inline-block;
+    border: 1px black solid;
+}
+
+.nav.nav-horisontal{
+
+}
+.nav.nav-horisontal>nav-item{
+    display:inline;
+}
