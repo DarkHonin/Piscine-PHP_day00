@@ -1,11 +1,49 @@
 .nav{
-    display: inline-block;
-    border: 1px black solid;
+    display: block;
+    background-color: #aaaaFF;
+    box-shadow: inset 0px 0px 0px 5px white;
+}
+
+.nav-item>a, .nav-item{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+.nav-item{
+    text-align: center;
+    padding: 5px 5px;
+    margin: 0px 5px;
+    color: white;
+    background-color: darkblue;
 }
 
 .nav.nav-horisontal{
-
+   height: 30px;
 }
-.nav.nav-horisontal>nav-item{
-    display:inline;
+
+.nav.nav-horisontal>.nav-item{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-dropdown>.nav-virtical{
+    margin: 5px -5px -5px;
+    visibility: hidden;
+    height: 0px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    transition-delay: 0.1s;
+}
+
+.nav-dropdown:hover>.nav-virtical
+{
+    visibility: visible;
+    height: initial;
+    opacity: 1;
+}
+
+.nav-dropdown>.nav-virtical>.nav-item{
+    display: block;
+    margin: 0px;
+    background-color: #7777AA;
 }
