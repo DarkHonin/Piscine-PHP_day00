@@ -1,0 +1,178 @@
+body{
+    position: relative;
+    margin: auto;
+}
+.element{
+    width: 5vw;
+    height: 5vw;
+    border: 1px black solid;
+    display: flex;
+    position: relative;
+    float: left;
+    clear: right;
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1;
+}
+.element:hover{
+    overflow: visible;
+}
+.symbol{
+    margin: auto;
+    display: block;
+    font-style: bold;
+    font-size: 3vw;
+}
+
+.meta{
+    position: absolute;
+    font-size: 1.2vw;
+}
+
+.atm_nbr{
+    left: 0px;
+    bottom: 0px;
+}
+
+.atm_mass{
+    top: 0px;
+    right: 0px;
+}
+
+.row{
+    text-align: right;
+    width: 100%;
+    border: 1px blue solid;
+}
+
+.ph-Gas{
+    background-color: lightblue;
+}
+.ph-Solid{
+    background-color: pink;
+}
+.ph-Liquid{
+    background-color: limegreen;
+}
+.background{
+    display: none;
+    height: 100vh;
+    position: fixed;
+    z-index: 0;
+    left: 0;
+    top: 0;
+}
+header{
+    position: absolute;
+    text-align: center;
+    width: 40vw;
+    display: flex;
+}
+header>div{
+    display: inline;
+}
+header>div>h1{
+    font-size: 3.2vw;
+}
+header>div>h3{
+    font-size: 1.6vw;
+}
+.icon{
+    display: inline;
+    left: 100%;
+    top: 0px;
+    width: 10vw;
+    height: 10vw;
+    margin: auto;
+}
+            .row-0{
+        top:0vw;
+}
+    .row-1{
+        top:5vw;
+}
+    .row-2{
+        top:10vw;
+}
+    .row-3{
+        top:15vw;
+}
+    .row-4{
+        top:20vw;
+}
+    .row-5{
+        top:25vw;
+}
+    .row-6{
+        top:30vw;
+}
+    .row-7{
+        top:35vw;
+}
+    .row-8{
+        top:40vw;
+}
+    .row-9{
+        top:45vw;
+}
+    .col-0{
+        left:0vw;
+}
+    .col-1{
+        left:5vw;
+}
+    .col-2{
+        left:10vw;
+}
+    .col-3{
+        left:15vw;
+}
+    .col-4{
+        left:20vw;
+}
+    .col-5{
+        left:25vw;
+}
+    .col-6{
+        left:30vw;
+}
+    .col-7{
+        left:35vw;
+}
+    .col-8{
+        left:40vw;
+}
+    .col-9{
+        left:45vw;
+}
+    .col-10{
+        left:50vw;
+}
+    .col-11{
+        left:55vw;
+}
+    .col-12{
+        left:60vw;
+}
+    .col-13{
+        left:65vw;
+}
+    .col-14{
+        left:70vw;
+}
+    .col-15{
+        left:75vw;
+}
+    .col-16{
+        left:80vw;
+}
+    .col-17{
+        left:85vw;
+}
+    .col-18{
+        left:90vw;
+}
+    .col-19{
+        left:95vw;
+}

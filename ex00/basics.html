@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Basics</title>
+        <style type="text/css">
+            html{
+                background-color: pink;
+            }
+            #panel{
+                width: auto;
+                max-width: 600px;
+                display: flex;
+                margin: 10px auto;
+                text-align: center;
+            }
+            #panel>a{
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            #panel>*{
+                display: block;
+            }
+            #panel>a>img{
+                height: 200px;
+                width: auto;
+            }
+            h1{
+                color: white;
+                text-align: center;
+            }
+            #sig{
+                float: right;
+                font-family: monospace;
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+                &#914;&#8704;&#8721;ic&#8721;
+        </h1>
+        <div id="panel">
+
+                    <a href="http://www.society6.com">
+                <img src="https://cdn.studentbeans.com/offer_service/companies/logos/000/008/079/compressed/Society6.svg.gz?1513764390" alt="No image yet">
+                Society6</a>
+
+                <a href="http://www.etsy.com">
+                    <img src="https://yt3.ggpht.com/a-/AN66SAxfUCscoGG2Lx5OHjgjQYYtIM2wGaJ0Nv92Lg=s288-mo-c-c0xffffffff-rj-k-no" alt="No image yet">
+                Etsy</a>
+
+        </div>
+        <hr>
+        <footer>
+            <label id="sig">&#169; wgourley 2018</label>
+        </footer>
+    </body>
+</html>
